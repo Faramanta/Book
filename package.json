@@ -1,0 +1,41 @@
+{
+  "name": "retail-books",
+  "version": "1.0.0",
+  "description": "Megafon Books",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.199.242.226:8929/git/vas-landing/retail-books.git"
+  },
+  "author": "MegaFon",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-hash": "^4.2.2",
+    "gulp-hash-references": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-modify-css-urls": "^2.0.0",
+    "gulp-preprocess": "^3.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-pngquant": "5.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

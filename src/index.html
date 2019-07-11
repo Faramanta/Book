@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>МегаФон Книги</title>
+    <!-- @if NODE_ENV='development' -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.books-megafon.css">
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/throbber.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/form.css">
+    <!-- @endif -->
+    
+    <!-- @if NODE_ENV='production' -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- @endif -->
+    
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MWJW5Z7');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#00985f">
+    <meta name="msapplication-TileColor" content="#00b956">
+    <meta name="theme-color" content="#00b956">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWJW5Z7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="page">
+        <header class="header">
+            <div class="header__wrap">
+                <a href="/" class="header__logo">
+                    <img src="img/megafon-logo-green.png" class="header__logo-img">
+                    <span class="header__logo-tagline">Книги</span>
+                </a>
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="banner__wrap">
+                <div class="banner__top">
+                    <p class="banner__ttl">
+                        Для тех, кто
+                        <span>проглатывает книги</span>
+                    </p>
+                </div>
+                <div class="banner__bot">
+                    <div class="banner__cnt-block">
+                        <div class="banner__cnt">
+                            <p class="banner__description">Читайте популярные бестселлеры в каталоге ЛитРес на специальных условиях</p>
+                            <p class="banner__description">7 дней бесплатно, далее 7 ₽ в день</p>
+                        </div>
+                        <div class="banner__btn-wrap">
+                            <button id="btn-try-top" data-mfp-src="#buy-popup" class="button banner__btn--purple banner__btn js-btn-try">Читать</button>
+                        </div>
+                    </div>
+                    <div class="banner__img-wrap">
+                        <div class="banner__img">
+                            <span class="banner-round banner-round--purple"></span>
+                            <span class="banner-round banner-round--purple"></span>
+                            <img class="banner__big-img" src="img/packman.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="content">
+            <section class="section ">
+                <div class="section__wrap">
+                    <h2 class="ttl2">Выбирайте
+                        <span>из 100&nbsp;000 книг</span>
+                    </h2>
+                    <div class="slider">
+                        <div class="owl-carousel owl-theme">
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/8.jpg" class="slider-item__img" alt="Оно" srcset="img/books/8@2x.jpg 2x, img/books/8@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Таинственная история Билли Миллигана</p>
+                                    <p class="slider-item__author">Дэниел Киз</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/1.jpg" class="slider-item__img" alt="Оно" srcset="img/books/1@2x.jpg 2x, img/books/1@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Оно</p>
+                                    <p class="slider-item__author">Стивен Кинг</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/5.jpg" class="slider-item__img" alt="Жажда" srcset="img/books/5@2x.jpg 2x, img/books/5@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Жажда</p>
+                                    <p class="slider-item__author">Ю Несбё</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/2.jpg" class="slider-item__img" alt="Убить пересмешника..." srcset="img/books/2@2x.jpg 2x,img/books/2@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Убить пересмешника...</p>
+                                    <p class="slider-item__author">Харпер Ли</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/7.jpg" class="slider-item__img" alt="Земное притяжение" srcset="img/books/7@2x.jpg 2x, img/books/7@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Существование S-T-I-K-S</p>
+                                    <p class="slider-item__author">Артем Каменистый</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/3.jpg" class="slider-item__img" alt="Убить пересмешника..." srcset="img/books/3@2x.jpg 2x, img/books/3@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Подсознание может все!</p>
+                                    <p class="slider-item__author">Джон Кехо</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/4.jpg" class="slider-item__img" alt="Шантарам" srcset="img/books/4@2x.jpg 2x, img/books/4@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Шантарам</p>
+                                    <p class="slider-item__author">Грегори Дэвитс Робертс</p>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-item__wrap">
+                                    <img src="img/books/6.jpg" class="slider-item__img" alt="Земное притяжение" srcset="img/books/6@2x.jpg 2x, img/books/6@3x.jpg 3x">
+                                    <p class="slider-item__ttl">Земное притяжение</p>
+                                    <p class="slider-item__author">Татьяна Устинова</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- <a href="#" class="button button--green slider-item__btn">Читать</a> -->
+                    </div>
+
+                    <ul class="offers__list">
+                        <li class="offers__item offers__item-percent">
+                            <p class="offers__cnt">Скидка 20% на книги, не входящие в подписку</p>
+                        </li>
+                        <li class="offers__item offers__item-free">
+                            <p class="offers__cnt">Читайте несколько книг одновременно.</p>
+                        </li>
+                        <li class="offers__item offers__item-spec">
+                            <p class="offers__cnt">Специальные условия на тарифах «Включайся!»</p>
+                        </li>
+
+                    </ul>
+                    <button id="btn-try-bottom" data-mfp-src="#buy-popup"  class="button button--green js-btn-try">Попробовать</button>
+                    <p class="cnt cnt_note">Нажимая на кнопку «Попробовать» и «Читать», Вы соглашаетесь с подключением услуги «МегаФон Книги» и ее условиями. Стоимость 7 рублей с НДС списывается ежедневно. При первом подключении бесплатно 7 дней. Отказаться от услуги можно в любой момент.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__wrap">
+                <div class="footer__copyright">
+                    <div class="footer__age">18+</div>
+                    <p class="footer__copyright-cnt">© 1993–2018, ПАО «МегаФон»</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+<!-- PopUP -->
+<div id="buy-popup" class="popup mfp-hide">
+    <div id="throbber" class="throbber throbber--center">
+            <div class="throbber throbber_size_l">
+                <span class="throbber__bouncer"></span>
+                <span class="throbber__bouncer"></span>
+                <span class="throbber__bouncer"></span>
+            </div>        
+    </div>
+    <div class="popup__loading" style="display:none"></div>
+    <!-- Выводиться когда подписка успешно подключена -->
+    <div id="success" style="display:none" class="popup__content popup__content--center">
+        <h2 class="ttl2">Услуга «(SERVICE_NAME)» подключена</h2>
+        <p class="cnt">Мы отправили вам SMS с подробностями.</p>
+        <img class="success__img" src="img/success.svg" alt="Успешно">
+    </div>
+    <!-- Выводиться когда произошла ошибка во время подключения подписки и ошибки не связаны с вводом телефона и кодов -->
+    <div id="error" style="display:none" class="popup__content popup__content--center">
+        <img class="error__img" src="img/error_3.svg" alt="Возникла ошибка">
+        <h2 id="error-title" class="ttl2"></h2>
+        <p id="error-message" class="cnt"></p>
+        <a id="btn-goto-site" href="" style="display:none" target="_blank" rel="nofollow noopener" class="button button--green popup__button popup__button-site">Перейти на сайт</a>
+    </div>
+
+    <!-- Форма ввода телефона -->
+    <div id="form-get-code" style="display:none" class="popup__content">
+        <h2 class="ttl2 popup__ttl2">Подключить услугу</h2>
+        <p class="cnt popup__cnt">Мы отправим код подтверждения на ваш номер</p>
+        <form method="POST" action="/api/subscribe/otp/send" class="popup__form js-form-get-code">
+            <label class="popup__lbl">Номер телефона</label>
+            <div class="input__wrap input__wrap_phone">
+                <input id="msisdn" class="input msisdn" type="tel" name="msisdn" autocomplete="tel-national" pattern="\d*" maxlength="15" placeholder="(ХХХ) ХХХ ХХ ХХ">
+            </div>
+            <div id="captchaGetCodeID"></div>
+            <button id="btn-send-code" class="button button--green popup__button">Получить код</button>
+        </form>
+    </div>
+    <!-- Форма ввода проверочного кода -->
+    <div id="form-enter-code" style="display:none" class="popup__content">
+        <h2 class="ttl2 popup__ttl2">Подключить услугу</h2>
+        <p class="cnt popup__cnt">Введите код подтверждения из SMS</p>
+        <form method="POST" action="/api/subscribe/otp/confirm" class="popup__form js-form-enter-code" autocomplete="off">
+            <label class="popup__lbl">Код подтверждения</label>
+            <div class="input__wrap input__wrap_code">
+                <input id="code" class="input code" type="tel" name="code" maxlength="4" placeholder="0000">
+            </div>
+            <span class="popup__resend-code js-resend-code-msg">Вы сможете запросить код повторно через: <span class="countdown">5:00</span></span>
+            <button class="popup__resend-code-btn js-resend-code-btn" style="display: none">Отправить код еще раз</button>
+            <span class="popup__resend-code js-resend-code-success" style="display: none">Мы отправили вам код в sms</span>
+            <div id="captchaResendCodeID"></div>
+            <button id="btn-enter-code" class="button button--green popup__button">Отправить</button>
+        </form>
+    </div>
+
+    <!-- кнопка close -->
+    <a href="#" class="popup__close">
+        <img src="img/close.svg" >
+    </a>    
+</div>
+
+<!-- @if NODE_ENV='development' -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/owlcarousel/owl.carousel.js"></script>
+<script src="js/magnific-popup.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/index.js"></script>
+<script src="js/helpers.js"></script>
+<script src="js/main.js"></script>
+<script src="js/subscription.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/ga.js"></script>
+<!-- @endif -->
+
+<!-- @if NODE_ENV='production' -->
+<script src="assets/script.js"></script>
+<!-- @endif -->
+<script src="https://www.google.com/recaptcha/api.js?hl=ru&onload=onLoadHandler&render=explicit" async defer></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+.input__wrap {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #d8d8d8;
+    margin-top: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.input__wrap+label.error {
+    font-size: 12px;
+    display: block;
+    margin: 5px 0;
+    color: red
+}
+
+.input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1;
+    outline: 0;
+    background: 0 0
+}
+
+.input__wrap.focus {
+    border-color: #333
+}
+
+.input__wrap.correct {
+    border-color: #00b956
+}
+
+.input__wrap.correct .input {
+    background: url(../img/checked-green.svg) no-repeat calc(100% - 16px) center
+}
+
+.input__wrap.error {
+    border-color: #f62434
+}
+
+.input__error-msg {
+    display: none;
+    color: #f62434;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -16px
+}
+
+.input__wrap.error .input__error-msg {
+    display: block
+}
+
+.input__wrap_phone input {
+    padding-left: 58px;
+    padding-top: 1px;
+    width: 100%
+}
+
+.input__wrap_phone::before {
+    content: "+7";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 15px;
+    color: #333;
+    padding: 8px 11px;
+    line-height: 1;
+    font-weight: 400
+}
+
+.input__wrap_phone::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 46px;
+    top: 7px;
+    height: 32px;
+    width: 1px;
+    background: #d8d8d8
+}
+
+.popup__lbl {
+    display: block;
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #333
+}
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}

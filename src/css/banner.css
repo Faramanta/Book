@@ -1,0 +1,170 @@
+.banner {
+    background: #00b956;
+    box-sizing: border-box;
+    /*height: 410;*/
+}
+.banner__wrap {
+    position: relative;
+    max-width: 768px;
+    margin: auto;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 14px 0;
+}
+.banner__cnt-block {
+    display: block;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+.banner__ttl {
+    font-size:  30px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    max-width: 220px;
+}
+.banner__ttl span {
+    font-size:  30px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #731982;
+    display: block;
+}
+.banner__description {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-top: 12px;
+    text-align: center;
+}
+.banner__btn-wrap {
+    position: relative;
+    margin-top: 12px;
+    text-align: center;
+}
+/*Кнопка*/
+.button.banner__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 200px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin: 0 auto;
+}
+.banner__btn--purple {
+    background: #731982;
+    color: #ffffff;
+}
+.banner__btn--purple:hover {
+    background: #a500bf;
+}
+/*Кнопка-end*/
+.banner__img-wrap {
+    position: relative;
+    display: block;
+    max-width: 750px;
+    margin: 20px auto 25px;
+}
+.banner__img {
+    display: block;
+    font-size: 0;
+    text-align: center;
+}
+.banner-round {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:  8px;
+    background: #fff;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.banner-round--purple {
+    background: #731982;
+}
+.banner__big-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 107px;
+    margin-bottom: -6px;
+}
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 380px;
+    }
+    .banner__wrap {
+        flex-wrap:  wrap;
+        flex-direction: initial;
+        padding: 32px 24px 24px;
+    }
+    .banner__top {
+        width: 100%;
+        padding: 0;
+    }
+    .banner__bot {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 4px 0 0;
+        width: 100%;
+    }
+    .banner__cnt-block {
+        max-width: 260px;
+        margin: 0;
+        padding: 0;
+    }
+    .banner__ttl,
+    .banner__ttl span {
+        font-size: 44px;
+        line-height: 1.09;
+        text-align: left;
+        max-width: 100%;
+    }
+    .banner__description {
+        text-align: left;
+        margin-top: 20px;
+    }
+    /*Кнопка*/
+    .banner__btn-wrap {
+        margin-top: 12px;
+        text-align: left;
+    }
+    .button.banner__btn {
+        height: 60px;
+        margin: 0;
+        width: 200px;
+    }
+    /*Кнопка-end*/
+    .banner__img-wrap {
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 12px 0 0 0;
+        display: flex;
+    }
+    .banner-round {
+        width: 104px;
+        height: 104px;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .banner__big-img {
+        width: 158px;
+    }
+}
