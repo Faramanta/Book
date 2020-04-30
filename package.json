@@ -30,7 +30,7 @@
     "imagemin-pngquant": "5.0.1"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "browserslist": [
     "last 2 version",
